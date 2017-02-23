@@ -16,19 +16,26 @@ body {background-color:#F2F2F2;background-repeat:no-repeat;background-position:c
 </style>
 </head>
 	<body > <div id="wrapper">
-		<div class="header" style="potition: absolute; top: 0; left: 0;"; ><div class="header-inner">
-				<header style="  background: rgba(0, 1, 0, 0.9);border: transparent;border-bottom: 2px solid #FC1926;border-radius: 21 px;height: 50 px;">
+		<div class="header"><div class="header-inner">
+				<ul class="nav"><li><a class="servidor" href="play.pokemonuniverse.tk" target="_blank">Juega En Línea</a></li>
+				<li><a class="webmain" href="/"><img src="http://i.imgur.com/jOCBjxC.png" alt="Pokémon Universe Logo"> Web</a></li>
+				<li><a class="dex" href="//dex.pokemonshowdown.com/" target="_blank">Pokédex Smogon</a></li>
+				<li> <a class="facebook" href="www.facebook.com" target="_blank">Facebook</a></li>
+				<li><a class="foro" href="www.google.com" target="_blank">Foro</a></li>	
+				
+                              			
+</ul>
 				<img src="http://i.imgur.com/jOCBjxC.png" WIDTH="100 px" HEIGHT="45 px"></div></div></div>
 		
 								
-</header><br><center><nav><center><div class="textbox" id="introtext"><P class="texto"> Pokémon Universe es un servidor de smogon en idioma español,<br>
+<br><center><center><div class="textbox" id="introtext"><P class="texto"> Pokémon Universe es un servidor de smogon en idioma español,<br>
 				       nuestro servidor cuenta con una amplia gama de modalidades de juego,	<br>	
              además contamos con nuestro chat y buenos usuarios, 		<br>	
 		cualquier duda o queja contacta un miembro del staff(personal del servidor)<br> </p> <a class="servidor" href="play.pokemonuniverse.tk" target="_blank">Juega En Línea				
 </a> <a class="facebook" href="www.facebook.com" target="_blank">Facebook	 </a>				
 <a class="foro" href="www.google.com" target="_blank">
 			Foro		
-					</a><br><br></div> </center> </nav></center>
+					</a><br><br></div> </center> </center>
 		
 <div class="screenshot"><br><center>
     <img src="https://i.gyazo.com/9b2915cee093a94d9cca2e6581c2bc26.png" alt=""width="600 px" height="300 px" aling="center" style="border:1 px;solid: #AAAAAA;box-shadow: 3px 3px 3px 3px rgba (0, 0, 0, 0.2);image-rendering: -moz-auto;" >
@@ -64,7 +71,39 @@ box-sizing: border-box;transition: all 500ms ease;
     text-decoration-line: none;
     text-decoration-style: solid;		
 			
+				
 }
+			.dex{text-decoration: none;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;cursor: pointer;
+  border: none;
+    background: rgba(0, 0, 0, 0.9);
+    background-color:  rgba(0, 0, 0, 0.9);
+    
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+			color: white;	padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+				font-size: 18px;
+				border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+				
+box-sizing: border-box;transition: all 500ms ease;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+			
+}		
 	.facebook {text-decoration: none;
     text-decoration-color: -moz-use-text-color;
     text-decoration-line: none;
@@ -140,8 +179,50 @@ box-sizing: border-box;transition: all 500ms ease;
  background:  rgba(0, 0, 0, 0.9);
  color: #DF013A;
  box-shadow: inset 0 0 0 3px #DF013A;
-} </style>
-			        <style>
+} .header {
+	margin: 0 0 30px 0;
+	background: #E5ECFB;
+	background: -webkit-gradient(linear,left top,left bottom,from(#E8EEFC),to(#D7DEEA));
+	background: -moz-linear-gradient(top,#E8EEFC,#D7DEEA);
+	background: linear-gradient(top,#E8EEFC,#D7DEEA);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#E8EEFC',endColorstr='#D7DEEA');
+	border-bottom: 1px solid #AAA;
+	box-shadow: inset 1px 1px 0 rgba(255,255,255,.6),0px 2px 2px rgba(0,0,0,.15);
+	min-height: 50px;
+} .header-inner {
+	max-width: 605px;
+	margin: 0 auto;
+}</style>
+			        <style>.header .nav {
+	padding: 15px 0 15px 155px;
+} .nav {
+	padding: 15px 6px 15px 6px;
+	
+}
+		.nav .webmain {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}		.nav .servidor  {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+}	.nav .dex {
+	position: relative;
+	padding: 5px 10px;
+	margin: 0 -1px 0 0;
+	border-radius: 0;
+}.nav .foro {
+	position: relative;
+	padding: 5px 10px;
+	margin: 0 -1px 0 0;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}.nav .facebook {
+	position: relative;
+	padding: 5px 10px;
+	margin: 0 -1px 0 0;
+	border-radius: 0;
+}
     .textbox 
 {background:rgba(250,250,250,0.65);width:650px;border-radius:15px;border:4px solid Black;height: 600;}.textbox a{text-decoration:strong;position: static;left:300 px;top:300 px; }.texto{
     line-height: 125%;
